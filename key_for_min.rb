@@ -8,4 +8,8 @@ def key_for_min_value(name_hash)
     if value <= value_array[0] || value_array[0] == nil 
       value_array = [value] 
       key_array = [key]
+    end
+  end
+  key_array
+  
 end
